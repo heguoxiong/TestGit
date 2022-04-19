@@ -1,0 +1,5 @@
+# cmake_minimum_required(3.12.3)
+# set(CMAKE_CXX_COMPILER  "G:\\softInstall\\cmake-3.23\\bin\\cmake.exe")
+project(MYSWAP)
+# add_definitions(-Wall -g) 
+add_executable(my_cmake_swap main.cpp swap.cpp)

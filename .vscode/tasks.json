@@ -13,7 +13,7 @@
             "args": [
                 "..",
             ], // 编译命令参数
-            "type": "shell" // 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令
+            "type": "process" // 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令
         },
         {
             "label": "make", // 任务名称

@@ -8,10 +8,10 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/my_cmake_swap.exe",
-            "args": [],  //此处的参数会传送给main函数中的argv中
+            "program": "${workspaceFolder}/build/STLTest/my_cmake_stl.exe",
+            "args": [], //此处的参数会传送给main函数中的argv中
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",  //进入该目录下
+            "cwd": "${workspaceFolder}", //进入该目录下
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 },
                 {
-                    "description":  "将反汇编风格设置为 Intel",
+                    "description": "将反汇编风格设置为 Intel",
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
